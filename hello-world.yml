@@ -2,12 +2,12 @@ name: Hello World Workflow
 
 on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
   say-hello:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Print Hello World
